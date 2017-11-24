@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node --max-old-space-size=8192 index.js"
+    "start": "node --max-old-space-size=16384 index.js"
   },
   "dependencies": {
     "beautify-benchmark": "^0.2.4",
